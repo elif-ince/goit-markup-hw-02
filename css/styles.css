@@ -45,7 +45,6 @@ body {
   text-align: justify;
   line-height: 24px;
   letter-spacing: 2%;
-  text-decoration: underline;
 }
 .page-contacts >a{
   font-family: "Roboto", sans-serif;
@@ -174,8 +173,7 @@ footer > a {
   text-align: justify;
   line-height: 24px;
   letter-spacing: 2%;
-  text-decoration: underline;
-}
+  }
 
 footer .text{
   font-family: "Roboto", sans-serif;
