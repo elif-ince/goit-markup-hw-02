@@ -32,10 +32,10 @@ body {
   text-align: justify;
   line-height: 24px;
   letter-spacing: 2%;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
-.page-header .link{
+.page-header >a{
   font-family: "Roboto", sans-serif;
   background-color: #FFFFF;
   color: #2e2f42;
@@ -44,16 +44,18 @@ body {
   text-align: justify;
   line-height: 24px;
   letter-spacing: 2%;
+  text-decoration: underline;
 }
-.page-contacts {
+.page-header >.page-contacts {
   font-family: "Roboto", sans-serif;
   background-color: #FFFFF;
-  color: #434455;
+  color: #2e2f42;
   font-size: 16px;
   font-weight: 400;
   text-align: left;
   line-height: 24px;
   letter-spacing: 2%;
+  text-decoration: none;
 }
 
 
@@ -94,7 +96,18 @@ body {
   letter-spacing: 1;
 }
 
-.our-team .duty {
+.duty {
+  font-family: "Roboto", sans-serif;
+  background-color: #FFFFF;
+  color: #2E2F42;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: : centre;
+  line-height: 18px;
+  letter-spacing: 1;
+}
+
+.sub-title {
   font-family: "Roboto", sans-serif;
   background-color: #FFFFF;
   color: #2E2F42;
@@ -137,16 +150,6 @@ body {
     letter-spacing: 1;
 }
 
-.portfolio>li .duty {
-  font-family: "Roboto", sans-serif;
-  background-color: #FFFFF;
-  color: #2E2F42;
-  font-size: 14px;
-  font-weight: 500;
-  text-align: : centre;
-  line-height: 18px;
-  letter-spacing: 1;
-}
 
 footer {
   font-family: "Roboto", sans-serif;
@@ -182,4 +185,5 @@ footer .text{
   text-align: justify;
   line-height: 24px;
   letter-spacing: 2%;
+  text-decoration: none
   }
