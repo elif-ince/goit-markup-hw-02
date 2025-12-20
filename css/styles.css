@@ -35,6 +35,7 @@ body {
   text-decoration: none;
 }
 
+
 .page-header >a{
   font-family: "Roboto", sans-serif;
   background-color: #FFFFF;
@@ -46,7 +47,7 @@ body {
   letter-spacing: 2%;
   text-decoration: underline;
 }
-.page-header >.page-contacts {
+.page-contacts >a{
   font-family: "Roboto", sans-serif;
   background-color: #FFFFF;
   color: #2e2f42;
@@ -132,7 +133,7 @@ body {
   border: 1px white;
 }
 
-.page-button:hoover {
+.page-button:hover {
   color: tomato;
 }
 .page-button:focus {
@@ -160,11 +161,11 @@ footer {
   text-align: justify;
   line-height: 24px;
   letter-spacing: 2%;
-  text-decoration: underline;
+  text-decoration: none;
   
 }
 
-footer .link {
+footer > a {
   font-family: "Roboto", sans-serif;
   background-color: #2e2f42;
   color: white;
