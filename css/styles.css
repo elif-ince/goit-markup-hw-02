@@ -186,3 +186,7 @@ footer .text{
   line-height: 24px;
   letter-spacing: 2%;
   }
+
+    a {
+      text-decoration: none;
+    }
