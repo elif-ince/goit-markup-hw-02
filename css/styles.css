@@ -1,6 +1,11 @@
 body {
   font-family: "Roboto", "Railway", sans-serif;
 }
+
+a {
+  text-decoration: none;
+}
+
 .page-title {
   font-family: "Roboto", sans-serif;
   background-color: #2e2f42;
@@ -45,6 +50,7 @@ body {
   text-align: justify;
   line-height: 24px;
   letter-spacing: 2%;
+  text-decoration: underline;
 }
 .page-contacts >a{
   font-family: "Roboto", sans-serif;
@@ -173,7 +179,7 @@ footer > a {
   text-align: justify;
   line-height: 24px;
   letter-spacing: 2%;
-  text-decoration: none;
+  
   }
 
 footer .text{
@@ -187,6 +193,4 @@ footer .text{
   letter-spacing: 2%;
   }
 
-    a {
-      text-decoration: none;
-    }
+  
