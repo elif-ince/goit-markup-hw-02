@@ -1,39 +1,41 @@
 body {
-  font-family: "Roboto", "Railway", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 a {
   text-decoration: none;
 }
 
+.hugetitle {
+  background-color: #2E2F42;
+}
+
 .page-title {
-  font-family: "Roboto", sans-serif;
-  background-color: #2e2f42;
+  font-family: "Roboto";
+  background-color: #2E2F42;
   color: hsl(0, 100%, 100%);
   font-size: 56px;
-  font-weight: 700;
+  font-weight: bold;
   text-align: center;
-  line-height: 2;
-  letter-spacing: 1px;
+  line-height: 60px;
+  letter-spacing: 2%;
 }
 
 .page-subtitle {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto";
   background-color: white;
   color: #2e2f42;
-  font-size: 34px;
+  font-size: 36px;
   font-weight: 700;
   text-align: left;
-  line-height: 2;
-  letter-spacing: 1px;
+  letter-spacing: 2%;
 }
 
 .page-header {
-  font-family: "Roboto", sans-serif;
+  
   background-color: #FFFFF;
   color: blue;
   font-size: 16px;
-  font-weight: 400;
   text-align: justify;
   line-height: 24px;
   letter-spacing: 2%;
@@ -42,92 +44,97 @@ a {
 
 
 .page-header >a{
-  font-family: "Roboto", sans-serif;
+  
   background-color: #FFFFF;
   color: #2e2f42;
   font-size: 16px;
-  font-weight: 400;
   text-align: justify;
   line-height: 24px;
   letter-spacing: 2%;
   text-decoration: underline;
 }
 .page-contacts >a{
-  font-family: "Roboto", sans-serif;
-  background-color: #FFFFF;
-  color: #2e2f42;
-  font-size: 16px;
-  font-weight: 400;
-  text-align: left;
-  line-height: 24px;
-  letter-spacing: 2%;
+  font-family: "Roboto";
+    background-color: #FFFFF;
+    color: #434455;
+    height: 24;
+    width: 48;
+    font-size: 16px;
+    text-align: right;
+    line-height: 24px;
+    letter-spacing: 2%;
   text-decoration: none;
 }
 
 
 .site-nav .link {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto";
   background-color: #FFFFF;
   color: #434455;
+  height: 24;
+  width: 48;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   text-align: right;
   line-height: 24px;
   letter-spacing: 2%;
-  text-transform: uppercase;
 }
 
+.link:hover, .link:active
+{
+color: #404BBF;
+  }
 
 .company-principles .sub-item {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto";
   background-color: #FFFFF;
   color: inherit;
   font-size: 16px;
   font-weight: 500;
   text-align: :left;
-  line-height: inherit;
-  letter-spacing: inherit;
-}
+  line-height: 24;
+  letter-spacing: 2%;
+  }
 
 
 
 .our-team .sub-item {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto";
   background-color: #FFFFF;
   color: #2E2F42;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
   text-align: : centre;
-  line-height: 18px;
-  letter-spacing: 1;
+  line-height: 24px;
+  letter-spacing: 2%;
 }
 
 .duty {
-  font-family: "Roboto", sans-serif;
+  
   background-color: #FFFFF;
   color: #2E2F42;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   text-align: : centre;
-  line-height: 18px;
-  letter-spacing: 1;
+  line-height: 24px;
+  letter-spacing: 2%;
 }
 
 .sub-title {
-  font-family: "Roboto", sans-serif;
+  
   background-color: #FFFFF;
   color: #2E2F42;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 36px;
+  font-weight: bold;
   text-align: : centre;
-  line-height: 18px;
-  letter-spacing: 1;
+  line-height: 40px;
+  letter-spacing: 2%;
 }
 
 
 
 .page-button {
-  font-family: "Roboto", sans-serif;
+  
   background-color: #4D5AE5;
   color: white;
   font-size: 16px;
@@ -136,17 +143,18 @@ a {
   line-height: 24px;
   letter-spacing: 4%;
   border: 1px white;
+  cursor: pointer;
 }
 
 .page-button:hover {
-  color: tomato;
+  color: #404BBF;
 }
 .page-button:focus {
-  background-color: orange;
+  background-color: #4D5AE5;
 }
 
 .portfolio >li .sub-item{
-  font-family: "Roboto", sans-serif;
+  
     background-color: #FFFFF;
     color: #2E2F42;
     font-size: 18px;
@@ -158,11 +166,10 @@ a {
 
 
 footer {
-  font-family: "Roboto", sans-serif;
+  
   background-color: #2e2f42;
   color: blue;
   font-size: 16px;
-  font-weight: 400;
   text-align: justify;
   line-height: 24px;
   letter-spacing: 2%;
@@ -171,26 +178,26 @@ footer {
 }
 
 footer > a {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Railway", sans-serif;
   background-color: #2e2f42;
   color: white;
-  font-size: 16px;
-  font-weight: 400;
-  text-align: justify;
-  line-height: 24px;
-  letter-spacing: 2%;
+  font-size: 18px;
+    font-weight: bold;
+    text-align: justify;
+    line-height: 21px;
+    letter-spacing: 3%;
   
   }
 
 footer .text{
-  font-family: "Roboto", sans-serif;
+  
   background-color: #2e2f42;
   color: white;
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: bold;
   text-align: justify;
-  line-height: 24px;
-  letter-spacing: 2%;
+  line-height: 21px;
+  letter-spacing: 3%;
   }
 
   
