@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Raleway", sans-serif;
 }
 
 a {
@@ -17,8 +17,8 @@ a {
   font-size: 56px;
   font-weight: bold;
   text-align: center;
-  line-height: 60px;
-  letter-spacing: 2%;
+  line-height: 1.07;
+  letter-spacing: 0.02;
 }
 
 .page-subtitle {
@@ -28,17 +28,18 @@ a {
   font-size: 36px;
   font-weight: 700;
   text-align: left;
-  letter-spacing: 2%;
+  line-height: 1.11;
+  letter-spacing: 0.02;
 }
 
 .page-header {
-  font-family: "Railway";
   background-color: #FFFFF;
   color: blue;
   font-size: 16px;
+  font-weight: 700; 
   text-align: justify;
-  line-height: 24px;
-  letter-spacing: 2%;
+  line-height: 1.5;
+  letter-spacing: 0.02;
   text-decoration: none;
 }
 
@@ -49,8 +50,8 @@ a {
   color: #2e2f42;
   font-size: 16px;
   text-align: justify;
-  line-height: 24px;
-  letter-spacing: 2%;
+  line-height: 1.5;
+  letter-spacing: 0.02;
   text-decoration: none;
 }
 .page-contacts >a{
@@ -61,8 +62,8 @@ a {
     width: 48;
     font-size: 16px;
     text-align: right;
-    line-height: 24px;
-    letter-spacing: 2%;
+    line-height: 1.5;
+    letter-spacing: 0.02;
   text-decoration: none;
 }
 
@@ -76,13 +77,13 @@ a {
   font-size: 16px;
   font-weight: 500;
   text-align: right;
-  line-height: 24px;
-  letter-spacing: 2%;
+  line-height: 1.5;
+  letter-spacing: 0.02;
 }
 
 .link:hover, .link:active
 {
-color: #404BBF;
+backcolor: #404BBF;
   }
 
 li {
@@ -93,11 +94,11 @@ li {
   font-family: "Roboto";
   background-color: #FFFFF;
   color: inherit;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   text-align: :left;
-  line-height: 20px;
-  letter-spacing: 2%;
+  line-height: 1.2;
+  letter-spacing: 0.02;
   }
 
 
@@ -106,24 +107,22 @@ li {
   font-family: "Roboto";
   background-color: #FFFFF;
   color: #2E2F42;
-  font-size: 16px;
-  font-style: regular;
+  font-size: 20px;
   font-weight: 500;
   text-align: : centre;
-  line-height: 24px;
-  letter-spacing: 2%;
+  line-height: 1.2;
+  letter-spacing: 0.02;
 }
 
 .duty {
   
   background-color: #FFFFF;
   color: #434455;
-  font-size: 14px;
-  font-style: medium;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 400;
   text-align: : centre;
-  line-height: 24px;
-  letter-spacing: 2%;
+  line-height: 1.5;
+  letter-spacing: 0.02;
 }
 
 .sub-title {
@@ -133,8 +132,8 @@ li {
   font-size: 36px;
   font-weight: bold;
   text-align: : centre;
-  line-height: 40px;
-  letter-spacing: 2%;
+  line-height: 1.11;
+  letter-spacing: 0.02;
 }
 
 
@@ -146,14 +145,14 @@ li {
   font-size: 16px;
   font-weight: 500;
   text-align: centre;
-  line-height: 24px;
-  letter-spacing: 4%;
+  line-height: 1.5;
+  letter-spacing: 0.04;
   border: 1px white;
   cursor: pointer;
 }
 
 .page-button:hover {
-  color: #404BBF;
+  background-color: #404BBF;
 }
 .page-button:focus {
   background-color: #4D5AE5;
@@ -163,22 +162,23 @@ li {
   
     background-color: #FFFFF;
     color: #2E2F42;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
     text-align: : centre;
-    line-height: 18px;
-    letter-spacing: 1;
+    line-height: 1.2;
+    letter-spacing: 0.02;
 }
 
 
 footer {
-  font-family: "Railway";
+  
   background-color: #2e2f42;
   color: blue;
   font-size: 18px;
+  font-weight: 700;
   text-align: justify;
-  line-height: 24px;
-  letter-spacing: 2%;
+  line-height: 1.33;
+  letter-spacing: 0.02;
   text-decoration: none;
   
 }
@@ -188,10 +188,10 @@ footer > a {
   background-color: #2e2f42;
   color: white;
   font-size: 18px;
-  font-weight: bold;
+  
   text-align: justify;
-  line-height: 21px;
-  letter-spacing: 3%;
+  line-height: 1,17;
+  letter-spacing: 0.03;
   }
 
 footer .text{
@@ -201,8 +201,8 @@ footer .text{
   font-size: 18px;
   font-weight: medium;
   text-align: justify;
-  line-height: 21px;
-  letter-spacing: 3%;
+  line-height: 1,17;
+  letter-spacing: 0.03;
   }
 
   
